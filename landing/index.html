@@ -3,7 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BossAI — 老板负责决策。BossAI 负责执行。</title>
+<title>BossAI — 每天帮你做好今天最值得发布的视频</title>
+<meta name="description" content="BossAI Desktop 是一款 AI 内容创作桌面软件。输入一句话，自动完成短视频文案、配图、配音。本地运行，自带 API Key，一次性购买。">
+<meta property="og:title" content="BossAI — AI 内容桌面软件">
+<meta property="og:description" content="输入一句话，自动完成短视频文案、配图、配音。本地运行，自带 API Key。">
+<meta name="twitter:card" content="summary">
 <style>
 :root {
   --bg: #070A13;
@@ -80,61 +84,54 @@ footer a { color: var(--muted); text-decoration: none; }
 </nav>
 
 <section class="hero container">
-  <div class="eyebrow">AI Work Operating Platform</div>
-  <h1>老板负责决策。<br><span>BossAI 负责执行。</span></h1>
-  <p class="sub">你说一句话。BossAI 自动调用你的 AI，完成文案、图片、视频、音频。不用学 Prompt，不用切换模型。</p>
-  <a class="cta" href="#download">下载 BossAI Desktop</a>
-  <p class="footnote">BYO AI · 本地数据 · 一次性购买 ¥299</p>
-</section>
-
-<section class="principle container">
-  <h2>BossAI 不卖模型。BossAI 管理模型。</h2>
-  <p>使用你自己的 DeepSeek、OpenAI、Claude、Gemini、即梦、可灵。我们绝不赚 API 差价。</p>
+  <div class="eyebrow">AI Content Desktop Software</div>
+  <h1>每天帮你做好<br><span>今天最值得发布的视频。</span></h1>
+  <p class="sub">输入一句话。BossAI 自动完成短视频文案、配图、配音。不懂 Prompt，不用切换模型。</p>
+  <a class="cta" href="https://github.com/liufeng1976/ai-shop-copilot/releases" target="_blank">下载 BossAI Desktop</a>
+  <p class="footnote">V1.0 Early Access · Windows 10+ · 103MB · BYO AI · 本地数据</p>
 </section>
 
 <section class="features container" id="how">
-  <h2>你说一句话，BossAI 自动完成</h2>
-  <p class="subtitle">从决策到执行，不需要你动手</p>
-  <div class="feature-grid">
-    <div class="feature-card"><h3>🎯 Director 工作流</h3><p>说"帮我做一条宠物保健品短视频"，BossAI 自动规划、执行、保存全部结果。</p></div>
-    <div class="feature-card"><h3>🧠 项目记忆</h3><p>记住你的品牌、产品、语气。每次工作不需要重新配置。</p></div>
-    <div class="feature-card"><h3>💾 本地资产库</h3><p>所有内容自动保存，按项目分类。数据永远属于你。</p></div>
-    <div class="feature-card"><h3>🔄 双模式</h3><p>默认 Director 模式。高级用户可以直接使用 Chat、Image、Video、Audio。</p></div>
-    <div class="feature-card"><h3>🔌 AI Connections</h3><p>接入你自己的 AI。DeepSeek、OpenAI、Claude、可灵，随你选。</p></div>
-    <div class="feature-card"><h3>🔐 本地优先</h3><p>所有数据保存在你的电脑。不上传云端。不收集使用数据。</p></div>
+  <h2>一句话，自动完成</h2>
+  <p class="subtitle">从想法到可发布的内容，不需要你动手</p>
+  <div class="grid">
+    <div class="card"><h3>输入一句话</h3><p>"帮我做一条宠物保健品短视频" — BossAI 理解你的行业和目标，自动规划执行路径。</p></div>
+    <div class="card"><h3>自动完成</h3><p>Director 自动写文案、出图、做视频、保存。全程无需手动切换任何工具。</p></div>
+    <div class="card"><h3>本地资产库</h3><p>所有生成内容自动保存到本地。不丢失任何创作记录，按项目分类。</p></div>
+    <div class="card"><h3>项目记忆</h3><p>记住你的品牌、产品、语气。从第二条内容开始更快。</p></div>
   </div>
 </section>
 
 <section class="pricing container" id="pricing">
   <h2>透明定价</h2>
-  <p class="subtitle">一次性购买。AI 费用直接付给 Provider，我们不赚差价。</p>
-  <div class="plan-grid">
-    <div class="plan-card">
+  <p class="subtitle">一次性购买，永久使用。AI 费用直接付给 DeepSeek、OpenAI，我们不赚差价。</p>
+  <div class="plan-grid" id="pricing-cards">
+    <div class="plan-card" data-plan="starter" onclick="selectPlan('starter')">
       <h3>Starter</h3>
-      <div class="price">¥99 <span>一次性</span></div>
+      <div class="price">$99 <span>一次性</span></div>
       <ul>
         <li>BossAI Desktop 完整功能</li>
         <li>10 次免费试用</li>
         <li>单设备授权</li>
         <li>V1.x 免费更新</li>
       </ul>
-      <a class="cta" href="#download">试用</a>
+      <a class="cta" href="https://github.com/liufeng1976/ai-shop-copilot/releases" target="_blank">试用</a>
     </div>
-    <div class="plan-card featured">
+    <div class="plan-card featured selected" data-plan="professional" onclick="selectPlan('professional')">
       <h3>Professional</h3>
-      <div class="price">¥299 <span>一次性</span></div>
+      <div class="price">$299 <span>一次性</span></div>
       <ul>
         <li>全部 Starter 功能</li>
         <li>项目记忆</li>
-        <li>AI Connections 配置</li>
+        <li>AI Connections</li>
         <li>工作流模板</li>
         <li>优先支持</li>
       </ul>
-      <a class="cta" href="#download">购买</a>
+      <a class="cta" href="https://github.com/liufeng1976/ai-shop-copilot/releases" target="_blank">购买</a>
     </div>
-    <div class="plan-card">
+    <div class="plan-card" data-plan="business" onclick="selectPlan('business')">
       <h3>Business</h3>
-      <div class="price">¥999 <span>一次性</span></div>
+      <div class="price">$999 <span>一次性</span></div>
       <ul>
         <li>全部 Professional 功能</li>
         <li>多设备授权</li>
@@ -146,9 +143,9 @@ footer a { color: var(--muted); text-decoration: none; }
   </div>
 </section>
 
-<section id="faq" class="features container"> <h2>常见问题</h2> <p class="subtitle">使用自己的 AI API Key。BossAI 不提供模型、不转售 Token。</p> <div class="feature-grid"> <div class="feature-card"><h3>BossAI 是 SaaS 吗？</h3><p>不是。V1 是本地桌面软件。所有数据保存在你自己电脑。Cloud 版本在 V2 路线图中。</p></div> <div class="feature-card"><h3>需要自己的 API Key 吗？</h3><p>是的。BossAI 使用你自己的 API Key。我们不提供模型，不赚 Token 差价。</p></div> <div class="feature-card"><h3>数据安全吗？</h3><p>所有数据保存在本地。不上传云端。不收集使用数据。</p></div> <div class="feature-card"><h3>可以试用吗？</h3><p>可以。10 次免费生成，无需激活码，无功能限制。</p></div> <div class="feature-card"><h3>支持哪些模型？</h3><p>DeepSeek、OpenAI、Claude、Gemini、通义千问、可灵、Runway 等 25+ Provider。你自备 Key。</p></div> <div class="feature-card"><h3>买断后还需要付费吗？</h3><p>V1.x 更新免费。V2 升级需单独购买。此外只需要支付 AI Provider 的 API 费用。</p></div> </div> </section> <section id="download" class="pricing container"> <h2>下载 BossAI Desktop</h2> <p class="subtitle">Windows 10+ · BYO AI · 本地数据 · 一次性购买</p> <div style="text-align:center;margin-top:40px"> <a class="hero cta" href="https://github.com/liufeng1976/ai-shop-copilot/releases" target="_blank" style="display:inline-flex">下载 V1.0 Early Access</a> <p style="margin-top:16px;color:var(--muted);font-size:14px">103MB · 版本 1.0.0 · 2026-06-26</p> </div> </section> <footer class="container">
+<section class="section container" id="faq"> <h2>常见问题</h2> <p class="subtitle">使用自己的 API Key。本地运行。不绑定任何厂商。</p> <div class="grid" style="max-width:800px;margin:0 auto"> <div class="card"><h3>BossAI 和 ChatGPT 有什么区别？</h3><p>ChatGPT 是聊天界面。BossAI 是内容工作台。输入一句话，自动完成文案、配图、视频。</p></div> <div class="card"><h3>需要自己买 API Key 吗？</h3><p>是的。BossAI 使用你自己的 API Key。我们不提供模型，不赚 Token 差价。DeepSeek 注册送 500 万 Token。</p></div> <div class="card"><h3>数据安全吗？</h3><p>所有数据保存在你电脑本地。API Key 仅存储在本地。BossAI 不上传你的数据或密钥。</p></div> <div class="card"><h3>可以试用吗？</h3><p>可以。内置 10 次免费试用，无需激活码，无功能限制。满意后购买激活码。</p></div> <div class="card"><h3>买断后还要付费？</h3><p>V1.x 更新免费。V2 升级需单独购买。此外只需支付 AI Provider 的 API 费用。</p></div> <div class="card"><h3>支持哪些 AI？</h3><p>DeepSeek、OpenAI、Claude、Gemini、通义千问（LLM）；GPT Image、即梦（图片）；可灵、Runway、Pika（视频）。</p></div> </div> </section> <section class="section container" id="download"> <div class="download-box"> <h2>下载 BossAI Desktop V1.0</h2> <div class="meta"><span>版本 1.0.0</span><span>2026-06-26</span><span>103MB</span><span>Windows 10+</span></div> <a class="cta" href="https://github.com/liufeng1976/ai-shop-copilot/releases" target="_blank">下载 V1.0 Early Access</a> <div class="trust-row"><span class="trust-item">本地运行</span><span class="trust-item">自带 API</span><span class="trust-item">数据不上传</span></div> </div> </section> <footer class="container"> <div class="links"> <a href="https://github.com/liufeng1976/ai-shop-copilot/releases" target="_blank">下载</a> <a href="https://github.com/liufeng1976/ai-shop-copilot" target="_blank">GitHub</a> <a href="https://github.com/liufeng1976/bossai-growth" target="_blank">商业</a> </div> <p>BossAI — AI Content Desktop Software</p> </footer>
   <p>BossAI — AI Work Operating Platform · · <a href="https://github.com/liufeng1976/bossai-growth">GitHub</a> · You Decide. BossAI Delivers.</p>
 </footer>
 
-</body>
+<script>function selectPlan(p){document.querySelectorAll(".plan-card").forEach(function(c){c.classList.remove("selected")});var el=document.querySelector('[data-plan=""+p+""]');if(el)el.classList.add("selected")}function toggleNav(){document.getElementById("navLinks").classList.toggle("mobile-show")}document.addEventListener("DOMContentLoaded",function(){var f=document.querySelector(".plan-card.featured");if(f)f.classList.add("selected")});</script></body>
 </html>
