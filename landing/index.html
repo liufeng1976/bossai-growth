@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BossAI OS — One Workspace. Unlimited AI.</title>
+<style>
+:root {
+  --bg: #070A13;
+  --surface: rgba(255,255,255,0.04);
+  --border: rgba(255,255,255,0.08);
+  --text: #F9FAFB;
+  --muted: #9CA3AF;
+  --accent: #22D3EE;
+  --accent2: #7C3AED;
+  --radius: 16px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+/* Nav */
+nav { display: flex; align-items: center; justify-content: space-between; padding: 20px 0; border-bottom: 1px solid var(--border); }
+nav .logo { font-size: 22px; font-weight: 800; letter-spacing: -0.03em; }
+nav .logo span { background: linear-gradient(135deg, var(--accent2), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+nav a { color: var(--muted); text-decoration: none; margin-left: 24px; font-size: 14px; transition: color .2s; }
+nav a:hover { color: var(--text); }
+.lang-switch { display: flex; gap: 8px; }
+.lang-switch a { margin: 0; font-size: 12px; padding: 4px 10px; border-radius: 8px; border: 1px solid var(--border); }
+
+/* Hero */
+.hero { padding: 100px 0 80px; text-align: center; }
+.hero h1 { font-size: 72px; font-weight: 700; letter-spacing: -0.05em; line-height: 1.05; }
+.hero h1 span { background: linear-gradient(135deg, var(--accent2), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.hero p { margin-top: 24px; font-size: 20px; color: var(--muted); max-width: 640px; margin-left: auto; margin-right: auto; }
+.hero .cta { display: inline-flex; align-items: center; gap: 12px; margin-top: 40px; padding: 16px 32px; border-radius: 999px; background: linear-gradient(135deg, var(--accent2), #2563EB, var(--accent)); color: white; font-weight: 700; font-size: 18px; text-decoration: none; transition: transform .3s, box-shadow .3s; }
+.hero .cta:hover { transform: translateY(-2px); box-shadow: 0 24px 70px rgba(34,211,238,0.25); }
+.hero .sub { margin-top: 16px; font-size: 14px; color: var(--muted); }
+
+/* Features */
+.features { padding: 80px 0; }
+.features h2 { text-align: center; font-size: 40px; font-weight: 700; margin-bottom: 60px; }
+.feature-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+.feature-card { padding: 32px; border-radius: var(--radius); border: 1px solid var(--border); background: var(--surface); transition: transform .3s; }
+.feature-card:hover { transform: translateY(-4px); }
+.feature-card .icon { font-size: 32px; margin-bottom: 16px; }
+.feature-card h3 { font-size: 20px; font-weight: 600; margin-bottom: 8px; }
+.feature-card p { font-size: 14px; color: var(--muted); line-height: 1.7; }
+
+/* Pricing */
+.pricing { padding: 80px 0; }
+.pricing h2 { text-align: center; font-size: 40px; font-weight: 700; margin-bottom: 8px; }
+.pricing .subtitle { text-align: center; color: var(--muted); margin-bottom: 60px; }
+.plan-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+.plan-card { padding: 32px; border-radius: var(--radius); border: 1px solid var(--border); background: var(--surface); }
+.plan-card.featured { border-color: var(--accent); position: relative; }
+.plan-card.featured::before { content: '推荐'; position: absolute; top: -12px; left: 50%; transform: translateX(-50%); padding: 4px 16px; border-radius: 999px; background: var(--accent); color: var(--bg); font-size: 12px; font-weight: 700; }
+.plan-card h3 { font-size: 24px; font-weight: 600; }
+.plan-card .price { margin-top: 16px; font-size: 36px; font-weight: 700; }
+.plan-card .price span { font-size: 14px; color: var(--muted); font-weight: 400; }
+.plan-card ul { margin-top: 24px; list-style: none; }
+.plan-card ul li { padding: 8px 0; font-size: 14px; color: var(--muted); }
+.plan-card ul li::before { content: '✓ '; color: var(--accent); }
+.plan-card .cta { display: block; margin-top: 24px; padding: 12px; border-radius: 999px; text-align: center; font-weight: 600; text-decoration: none; background: var(--surface); border: 1px solid var(--border); color: var(--text); transition: .2s; }
+.plan-card.featured .cta { background: linear-gradient(135deg, var(--accent2), var(--accent)); border: none; }
+
+/* Footer */
+footer { padding: 40px 0; border-top: 1px solid var(--border); text-align: center; color: var(--muted); font-size: 14px; }
+footer a { color: var(--muted); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<nav class="container">
+  <div class="logo"><span>BossAI</span> OS</div>
+  <div>
+    <a href="#features">Features</a>
+    <a href="#pricing">Pricing</a>
+    <a href="/faq">FAQ</a>
+    <a href="/download">Download</a>
+    <div class="lang-switch" style="display:inline-flex;margin-left:24px">
+      <a href="/">中</a>
+      <a href="/en">EN</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero container">
+  <h1>One Workspace.<br><span>Unlimited AI.</span></h1>
+  <p>使用自己的 AI API，一句话完成聊天、图片、视频、音频创作。无需学习 Prompt，无需切换模型，BossAI 自动完成工作。</p>
+  <a class="cta" href="/download">下载 BossAI Desktop</a>
+  <p class="sub">Windows 10+ · 自带 API Key · 本地数据 · 一次性购买</p>
+</section>
+
+<section class="features container" id="features">
+  <h2>一切为了创作</h2>
+  <div class="feature-grid">
+    <div class="feature-card"><div class="icon">🎯</div><h3>Director 智能工作流</h3><p>说一句话，BossAI 自动规划、执行、保存。不用手动切换任何工具。</p></div>
+    <div class="feature-card"><div class="icon">🔌</div><h3>25+ AI Provider</h3><p>DeepSeek、OpenAI、Claude、Gemini、可灵、Runway、DALL-E 等统一接入。</p></div>
+    <div class="feature-card"><div class="icon">💾</div><h3>本地资产库</h3><p>所有生成内容自动保存，按项目分类。数据永远属于你。</p></div>
+    <div class="feature-card"><div class="icon">🧠</div><h3>项目记忆</h3><p>BossAI 记住你的品牌、产品、语气，每次工作不需要重新配置。</p></div>
+    <div class="feature-card"><div class="icon">🔄</div><h3>双模式</h3><p>Professional Mode 直接操作。Director Mode 自动完成。两种模式共存。</p></div>
+    <div class="feature-card"><div class="icon">🔐</div><h3>本地优先</h3><p>所有数据保存在你的电脑。不上传云端。不收集使用数据。</p></div>
+  </div>
+</section>
+
+<section class="pricing container" id="pricing">
+  <h2>简单透明的价格</h2>
+  <p class="subtitle">一次性购买，永久使用。自带 API Key，模型费用直接付给 Provider。</p>
+  <div class="plan-grid">
+    <div class="plan-card">
+      <h3>Starter</h3>
+      <div class="price">¥99 <span>一次性</span></div>
+      <ul>
+        <li>BossAI Desktop 完整功能</li>
+        <li>10 次免费试用</li>
+        <li>单设备授权</li>
+        <li>V1.x 免费更新</li>
+      </ul>
+      <a class="cta" href="/download">试用</a>
+    </div>
+    <div class="plan-card featured">
+      <h3>Professional</h3>
+      <div class="price">¥299 <span>一次性</span></div>
+      <ul>
+        <li>全部 Starter 功能</li>
+        <li>Business Context</li>
+        <li>Provider Profiles</li>
+        <li>Workflow Templates</li>
+        <li>优先支持</li>
+      </ul>
+      <a class="cta" href="/download">购买</a>
+    </div>
+    <div class="plan-card">
+      <h3>Business</h3>
+      <div class="price">¥999 <span>一次性</span></div>
+      <ul>
+        <li>全部 Professional 功能</li>
+        <li>多设备授权</li>
+        <li>团队协作</li>
+        <li>企业级支持</li>
+      </ul>
+      <a class="cta" href="/contact">联系我们</a>
+    </div>
+  </div>
+</section>
+
+<footer class="container">
+  <p>© 2026 BossAI. All rights reserved. · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></p>
+</footer>
+
+</body>
+</html>
