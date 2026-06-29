@@ -29,18 +29,40 @@ notes: ""
 
 ---
 
-## V1.1 初步范围（待客户验证后确认）
+## V1.1 优先级排序（待客户验证后确认）
 
-**可能包含（基于预判，非决策）：**
+### P0（最高优先级）
 
-1. Business Context UI — 可视化编辑品牌信息
-2. Workflow Template Selector — 预设工作流
-3. 视频状态轮询 — Director 完成后显示生成进度
-4. i18n 即时刷新 — 切换语言无需重启
-5. 配置持久化统一 — localStorage + IPC 一致
+1. AI Connections Wizard — 重新设计配置流程，去技术词汇，增加跳过和体验模式
+2. Welcome / First Success 优化 — 推荐任务一键执行，🎉 成功反馈页面
+3. AI Profiles — Fast / Budget / Quality / Chinese / Global / Visual / Video
 
-**不包含（已确认不属于 V1.1）：**
+### P1（高优先级）
 
+4. 免费 AI 推荐 — 新手推荐、免费额度推荐
+5. 一键连接测试 — 配置完成后自动测试
+6. First Success Metric / TTFS — 首次成功时间测量
+
+### P2（中优先级）
+
+7. AI Benchmark — 延迟/可用性测试
+8. AI Guide — 图文教程（申请 API Key）
+9. Cost Estimator — 费用估算
+10. Health Monitor — 持续连接状态监控
+
+### P3（低优先级）
+
+11. 完整 AI Connections Hub
+12. AI Marketplace
+13. AI Recommendation Engine
+14. Business Context UI
+15. Workflow Template Selector
+
+### 已确认不属于 V1.1
+
+- 视频状态轮询
+- i18n 即时刷新
+- 配置持久化统一
 - AI Workers
 - Workflow Engine
 - SaaS 同步
