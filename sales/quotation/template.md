@@ -22,8 +22,8 @@
 
 | 序号 | 产品 | 说明 | 数量 | 单价 | 总价 |
 |------|------|------|------|------|------|
-| 1 | BossAI Desktop Professional | 单设备永久授权 | 1 | ¥299 | ¥299 |
-| 2 | BossAI Desktop Business | 多设备授权（可选） | 1 | ¥999 | ¥999 |
+| 1 | BossAI Desktop Professional | 单设备永久授权 | 1 | ¥699 | ¥699 |
+| 2 | BossAI Desktop Business | 多设备授权（可选） | 1 | ¥1999 | ¥1999 |
 
 **总金额：** ¥XXX
 

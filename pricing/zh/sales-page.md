@@ -16,13 +16,13 @@ BossAI 是你唯一需要购买的 AI 内容工作台。一次性付费，永久
 
 > 适合：刚开始做内容的个人创作者。
 
-### Professional — ¥299 一次性（推荐）
+### Professional — ¥699 一次性（推荐）
 
 适合专业创作者和团队负责人。全部 Starter 功能。Business Context（品牌/产品/语气记忆）。Provider Profiles（多场景模型配置）。Workflow Templates（预设工作流模板）。优先支持。
 
 > 适合：需要多场景、多品牌管理的创作者。
 
-### Business — ¥999 一次性
+### Business — ¥1999 一次性
 
 适合企业和工作室。全部 Professional 功能。多设备授权。团队协作。企业级支持。
 
@@ -48,7 +48,7 @@ V1.x 更新全部免费。V2 大版本升级需单独购买。
 可以。10 次免费生成，无需激活码，无功能限制。
 
 **问：和 ChatGPT Plus 比哪个划算？**
-ChatGPT Plus 月费 $20/月，一年 $240。BossAI Professional 一次性 ¥299，不到 ChatGPT Plus 两个月的费用。而且 BossAI 支持 DeepSeek、Claude、Gemini、可灵、Runway 等 25+ Provider，不是只锁一个模型。
+ChatGPT Plus 月费 $20/月，一年 $240。BossAI Professional 一次性 ¥699，不到 ChatGPT Plus 两个月的费用。而且 BossAI 支持 DeepSeek、Claude、Gemini、可灵、Runway 等 25+ Provider，不是只锁一个模型。
 
 ---
 

@@ -40,7 +40,7 @@ LLM：DeepSeek / OpenAI / Claude / Gemini / 通义千问 / Kimi / GLM / MiniMax
 ## 价格
 
 一次性购买，永久使用。Early Access 优惠价。
-Starter ¥99 / Professional ¥299 / Business ¥999
+Starter ¥99 | Professional ¥699（含一年能量卡）| Business ¥1999（含一年能量卡）
 
 ## 路线图
 

@@ -112,8 +112,8 @@ Business Layer
 | 套餐 | 价格 | 适用 |
 |------|------|------|
 | Starter | ¥99 | 个人创作者 |
-| Professional | ¥299 | 专业创作者（推荐） |
-| Business | ¥999 | 企业/工作室 |
+| Professional | ¥699 | 含一年能量卡，专业创作者（推荐） |
+| Business | ¥1999 | 含一年能量卡，企业/工作室 |
 | Enterprise | 定制 | 大型组织 |
 
 - 一次性购买，永久使用

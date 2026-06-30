@@ -19,8 +19,8 @@
 
 | 套餐 | 价格 | 说明 |
 |------|------|------|
-| Professional | ¥299 | 推荐。适合专业创作者/团队负责人 |
-| Business | ¥999 | 适合 3-10 人团队 |
+| Professional | ¥699 | 推荐。适合专业创作者/团队负责人 |
+| Business | ¥1999 | 适合 3-10 人团队 |
 
 ## 为什么选 BossAI？
 
@@ -38,7 +38,7 @@
 
 | 项目 | 金额 |
 |------|------|
-| BossAI Desktop Professional | ¥299 |
+| BossAI Desktop Professional | ¥699 |
 | 一次性购买，永久使用 | |
 | V1.x 免费更新 | 包含 |
 

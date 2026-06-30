@@ -20,7 +20,7 @@ For professional creators and team leads. All Starter features. Business Context
 
 > Best for: Multi-brand, multi-scenario creators.
 
-### Business — $299 one-time
+### Business — $699 one-time
 For businesses and studios. All Professional features. Multi-device. Team collaboration. Enterprise support.
 
 > Best for: 3-10 person content teams.

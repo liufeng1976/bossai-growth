@@ -9,10 +9,10 @@
 ### Starter — ¥99
 适合个人创作者。单设备授权。BossAI Desktop 完整功能。10 次免费试用。V1.x 免费更新。
 
-### Professional — ¥299（推荐）
+### Professional — ¥699（推荐）
 适合专业创作者和团队负责人。全部 Starter 功能。Business Context。Provider Profiles。Workflow Templates。优先支持。
 
-### Business — ¥999
+### Business — ¥1999
 适合企业和工作室。全部 Professional 功能。多设备授权。团队协作。企业级支持。
 
 ### Enterprise — 定制

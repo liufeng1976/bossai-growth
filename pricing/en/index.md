@@ -12,7 +12,7 @@ For individual creators. Single device. Full BossAI Desktop features. 10 free tr
 ### Professional — $79 (Recommended)
 For professional creators and team leads. All Starter features. Business Context. Provider Profiles. Workflow Templates. Priority support.
 
-### Business — $299
+### Business — $699
 For businesses and studios. All Professional features. Multi-device. Team collaboration. Enterprise support.
 
 ### Enterprise — Custom

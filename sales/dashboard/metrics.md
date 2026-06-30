@@ -27,8 +27,8 @@ Lead (50) → Contacted (30) → Demo (9) → Trial (6) → Paid (2)
 
 | 来源 | 客户数 | 收入 |
 |------|--------|------|
-| Professional ¥299 | | |
-| Business ¥999 | | |
+| Professional ¥699 | | |
+| Business ¥1999 | | |
 | 合计 | | |
 
 ## 客户行业分布
